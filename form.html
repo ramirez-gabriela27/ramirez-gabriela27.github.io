@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <title>Interest Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand" href="form.html">Form</a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="mypage_bootstrap.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1> Add Interest </h1>
+            <form action="home.html">
+        			<!-- Interest Name -->
+                    <label for="interest_name">Interest Name:</label>
+                    <input type="text" name="my_text_field" class="form-control" placeholder="Name">
+                    <br>
+                    <!-- Text About Interest -->
+                    <label for="interest_text">Text About Interest:</label>
+                    <textarea class="form-control" id="interest_text_area" rows="5"></textarea>
+                    <br>
+
+                    <!-- File Upload and tweets to include -->
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="exampleFormControlFile1">Upload Local Image:</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                        <div class="col">
+                            <label for="numTweets">Select # Tweets to Display:</label>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Level of Interest -->
+                    <label for="interest">On a scale of 1-5, how interested in this are you?</label>
+                    <br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">1</label>
+
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">2</label>
+
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">3</label>
+
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">4</label>
+
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">5</label>
+                    </div>
+                    <br>
+
+                    <!-- Login information -->
+                    <br>
+                    <label for="login">Login to Finish Submitting</label>
+                    <br>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                        <div class="col">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" type="submit">Submit</button>        		</form>
+            </div>
+
+    </body>
+</html>
