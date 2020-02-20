@@ -5,4 +5,4 @@ Create a Website about you, including a small description, a photo, a link to yo
 
 
 To access the about me page:
-https://ramirez-gabriela27.github.io/mypage_bootstrap
+https://ramirez-gabriela27.github.io/mypage_bootstrap.html
